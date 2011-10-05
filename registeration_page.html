@@ -56,7 +56,7 @@ function checkPassword(whatYouTyped) {
 
 		var usertype=$("#userTypeValue").val();
 		console.log("usertype:",usertype);
-		alert("Doing");	
+		
 		$.post("travIT.php",{"username":username,"userpass":userpass,"useremail":email,"usertype":usertype,"firstname":firstname,"lastname":lastname,"phonenumber":phonenumber,"address":street+city},function(response){
 
 

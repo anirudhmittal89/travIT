@@ -27,7 +27,7 @@ $("#userpassword").attr("value","");
     var upassword=$("#userpassword").attr("value");
     console.log("uname:"+uname+":upass:"+upassword);
     $.get('travIT.php',{"username":uname,"userpass":upassword	},function(response){
-    alert("Perfect:"+response);
+   
     	console.log("response:",response);
     	var resp=response.split(",");
     	console.log("resp:",resp);
