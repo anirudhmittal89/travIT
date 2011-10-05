@@ -1,0 +1,118 @@
+div#bottom a {
+    color: blue;
+    margin-left: 4px;
+    text-decoration: underline;
+    font: inherit;
+    font-family: Comic Sans MS;
+}
+
+div#top input {
+    border-radius: 10px 10px 10px 10px;
+    height: 48px;
+    margin-left: 526px;
+    width: 75px;
+}
+div#bottom img {
+    margin-left: 35%;
+}
+img#header{
+height: 123px;
+width: 122px;
+}
+
+
+#demo{
+			width: auto;
+			float: left;
+
+		}
+
+		div.content div.data{
+			height: 120px;
+			padding: 100px 0px 0px 0px;
+			font-weight: bold;
+			border-radius: 5px 5px 5px 5px;
+			
+			-webkit-box-shadow:0 0 4px rgba(50,0,0,0.8);
+			-moz-box-shadow:0 0 4px rgba(0,0,0,0.8);
+			-o-box-shadow:0 0 4px rgba(0,0,0,0.8);
+			box-shadow:0 0 4px rgba(0,0,0,0.8);
+		}
+
+		#tabs-nav{
+			float: left;
+			margin: 20px 0px 20px 150px;
+		}
+
+		#tabs-nav li {
+			border-radius: 5px 5px 5px 5px;
+			background-color: #efefef;
+			padding: 5px 15px 5px 15px;
+			
+			-webkit-box-shadow:0 0 4px rgba(50,0,0,0.8);
+			-moz-box-shadow:0 0 4px rgba(0,0,0,0.8);
+			-o-box-shadow:0 0 4px rgba(0,0,0,0.8);
+			box-shadow:0 0 4px rgba(0,0,0,0.8);
+		}
+
+		#tabs-nav li a{
+			text-decoration: none;
+			color: #000;
+		}
+
+		#tabs-nav li.active a{
+			color: red;
+		}
+
+		#tabs-nav li a:hover{
+			text-decoration: underline;
+		}
+		
+		div.code{
+			width: 500px;
+		}
+		
+		div#top{
+
+		color: Red;
+    font-family: Comic Sans MS;
+    font-size: xx-large;
+		}
+		
+		div#user_display_header{
+			color:Red;
+		}
+		
+		div#barCodeID {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #CCAA77;
+    border-color: #884400;
+    border-style: solid;
+    border-width: 8px 3px;
+ 
+}
+div#barCodeID img {
+    height: 200px;
+    width: 241px;
+    display: block;
+    text-align: justify;
+    margin-right: -47px;
+    margin-left: 950px;
+    margin-top: -108px;
+    padding-bottom: 5px;
+    padding-top: -48px;
+}
+
+table#listOfBarCodes{
+overflow-x:scroll;
+overflow:auto;
+width:800px;
+}
+label#profile{
+width:140px;
+display:inline-block;
+}

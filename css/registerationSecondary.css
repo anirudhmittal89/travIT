@@ -1,0 +1,149 @@
+
+div#userTypeRadioButton {  
+    padding-left: 166px;
+    margin-top: -2px;
+    font-size: 8pt;
+}
+img#header{
+height: 123px;
+width: 122px;
+}
+
+p {
+padding: 7px 0 7px 0;
+font-weight: 500;
+font-size: 10pt;
+}
+h1 {
+font-weight:200;
+color: #888888;
+font-size:16pt;
+background:no-repeat center left;
+padding-left:33px;
+margin:7px 5px 8px 8px;
+}
+h4 {
+padding:1px;
+color: #ACACAC;
+font-size:9pt;
+font-weight:100;
+text-transform:uppercase;
+}
+form.register{
+background-color:#fff;
+display:block;
+  width:600px;
+  height:750px;
+  border:outset;
+left:33%;
+top:9%;
+position:absolute;
+}
+
+form.register label{
+color:#444;
+width:160px;
+float: left;
+text-align: right;
+margin-right: 6px;
+margin-top:2px;
+}
+form.register input[type=radio]
+{
+float:left;
+width:15px;
+}
+
+
+.button {
+    background:repeat-x scroll 0 0 #ABDA0F;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+div#bottom{
+padding:-1px;
+padding-bottom:-10px;
+}
+
+div#fill{
+padding-top:10px;
+}
+
+
+
+
+fieldset {
+	border:0;
+	padding:10px;
+	margin:10px;
+	position:relative;
+}
+label {
+	display:block;
+	font:normal 12px/17px verdana;
+}
+input {
+	width:160px;
+	}
+
+
+span.hint {
+	font:normal 11px/14px verdana;
+	background:#eee url(bg-span-hint-gray.gif) no-repeat top left;
+	color:#444;
+	border:1px solid #888;
+	padding:5px 5px 5px 40px;
+	width:100px;
+	position:absolute;
+	margin: -12px 0 0 14px;
+	display:none;
+}
+
+.displayHint{
+	font:normal 11px/14px verdana;
+	background:#eee url(bg-span-hint-gray.gif) no-repeat top left;
+	color:#444;
+	border:1px solid #888;
+	padding:5px 5px 5px 40px;
+	width:150px;
+	position:absolute;
+	margin: -12px 0 0 14px;
+	display:inline-block;
+}
+
+.removeHint{
+	display:none;
+}
+
+
+fieldset.welldone span.hint {
+	background:#9fd680 url(bg-span-hint-welldone.jpg) no-repeat top left;
+	border-color:#749e5c;
+	color:#000;
+
+}
+fieldset.kindagood span.hint {
+	background:#ffffcc url(bg-span-hint-kindagood.jpg) no-repeat top left;
+	border-color:#cc9933;
+
+}
+
+
+fieldset.welldone {
+	background:transparent url(bg-fieldset-welldone.gif) no-repeat 194px 19px;
+
+}
+fieldset.kindagood {
+	background:transparent url(bg-fieldset-kindagood.gif) no-repeat 194px 19px;
+
+}
+
+input{
+margin-right:40px;
+margin-left:40px;
+}

@@ -1,0 +1,51 @@
+
+#wrapper{
+	width: 1014px;
+	margin: 0px auto 0px auto;
+}
+
+#demo{
+	width: 500px;
+	margin: 0px auto;
+}
+
+div.content div.data{
+	height: 120px;
+	padding: 100px 0px 0px 0px;
+	font-weight: bold;
+	border-radius: 5px 5px 5px 5px;
+	
+	-webkit-box-shadow:0 0 4px rgba(50,0,0,0.8);
+	-moz-box-shadow:0 0 4px rgba(0,0,0,0.8);
+	-o-box-shadow:0 0 4px rgba(0,0,0,0.8);
+	box-shadow:0 0 4px rgba(0,0,0,0.8);
+}
+
+#tabs-nav{
+	float: left;
+	margin: 20px 0px 20px 150px;
+}
+
+#tabs-nav li {
+	border-radius: 5px 5px 5px 5px;
+	background-color: #efefef;
+	padding: 5px 15px 5px 15px;
+	
+	-webkit-box-shadow:0 0 4px rgba(50,0,0,0.8);
+	-moz-box-shadow:0 0 4px rgba(0,0,0,0.8);
+	-o-box-shadow:0 0 4px rgba(0,0,0,0.8);
+	box-shadow:0 0 4px rgba(0,0,0,0.8);
+}
+
+#tabs-nav li a{
+	text-decoration: none;
+	color: #000;
+}
+
+#tabs-nav li.active a{
+	color: red;
+}
+
+#tabs-nav li a:hover{
+	text-decoration: underline;
+}

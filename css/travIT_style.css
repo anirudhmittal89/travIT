@@ -1,0 +1,134 @@
+ @font-face {
+    font-family: "myFirstFont";
+    font-weight: bold;
+    src: url("Sansation_Bold.ttf"), url("Sansation_Bold.eot") format("opentype");
+}
+img#header{
+height: 123px;
+width: 122px;
+}
+div#login_container {
+    border-color: #000000;
+    border-radius: 35px 35px 35px 35px;
+    border-style: solid;
+    border-width: 5px;
+    /*box-shadow: 0 5px 5px 5px #000000;*/
+  border: 5px solid #c4c8cc;
+    left: 35%;
+    margin: 40px auto;
+    padding: 45px;
+    position: absolute;
+    top: 9%;
+    width: 350px;
+    z-index: 10063;
+    background: Beige;
+   -moz-text-decoration-color: RoyalBlue;
+    -moz-appearance: toolbox;
+    -moz-border-image: thick;
+    -moz-border-start: SlateBlue;
+    -moz-box-direction: reverse;
+    -webkit-box-shadow: -72px 16px 5px rgba(227, 230, 28, 1);
+-moz-box-shadow:    -72px 16px 5px rgba(227, 230, 28, 1);
+box-shadow:         -72px 16px 5px rgba(227, 230, 28, 1);
+/*
+       background: rgb(226,226,226); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,226,226,1)), color-stop(50%,rgba(219,219,219,1)), color-stop(51%,rgba(209,209,209,1)), color-stop(100%,rgba(254,254,254,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* W3C */
+       
+*/
+
+/*     -webkit-transform: rotate(-15deg); 
+    -moz-transform: rotate(45deg);  
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5); /*for IE*/
+*/
+}
+
+img#login_image{
+height:32px;
+width:32px;
+}
+input {
+    font-family: fantasy;
+    height: 54px;
+    width: 300px;
+    font: Times New Roman;
+    font-size: medium;
+    font-size-adjust: -4;
+    font-family: Comic Sans MS;
+}
+div#login_container div#login_header {
+    background: repeat repeat scroll 0 0 #FFFFCC;
+    border: thin hidden #000000;
+    color: RoyalBlue;
+    display: block;
+    font-family: Comic Sans MS;
+    font-size: x-large;
+    font-weight: bold;
+    left: 35%;
+    text-align: center;
+    text-decoration: underline;
+    top: 50%;
+    width: 365px;
+}
+div#submit_button input {
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    display: table-cell;
+    font-family: Comic Sans MS;
+    font-size: larger;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: inherit;
+    overflow: auto;
+    padding-left: 12px;
+    table-layout: auto;
+    text-align: center;
+    text-decoration: none;
+    width: 132px;
+    border-radius:35px;
+    margin-left:174px;
+}
+div#submit_button input:hover {
+    background-color: SteelBlue;
+    text-decoration: underline;
+}
+div#trouble{
+ text-align: right;
+    font-size: small;
+}
+
+.drop-shadow {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    float: left;
+    margin: 2em 10px 4em;
+    padding: 1em;
+    position: relative;
+    width: 40%;
+}
+.drop-shadow:before, .drop-shadow:after {
+    content: "";
+    position: absolute;
+    z-index: -2;
+}
+.perspective:before {
+    -moz-transform: skew(50deg);
+    -moz-transform-origin: 0 100%;
+    bottom: 5px;
+    box-shadow: -80px 0 8px rgba(0, 0, 0, 0.4);
+    height: 35%;
+    left: 80px;
+    max-width: 200px;
+    width: 50%;
+}
+.perspective:after {
+    display: none;
+}

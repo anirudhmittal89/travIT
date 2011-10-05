@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "myFirstFont";
+    font-weight: bold;
+    src: url("Sansation_Bold.ttf"), url("Sansation_Bold.eot") format("opentype");
+}
+div#top{
+
+		color: Red;
+    font-family: Comic Sans MS;
+    font-size: xx-large;
+		}
+		
+		
+		
+		div#user_display_header{
+			color:Red;
+		}
+
+div#login_container {
+    border-radius: 35px 35px 35px 35px;
+    left: 35%;
+    margin: 40px auto;
+    position: absolute;
+    top: 9%;
+    width: 421px;
+    z-index: 10063;
+}
+img#login_image {
+    height: 32px;
+    width: 32px;
+    margin-left: 45px;
+}
+img#header{
+    height: 132px;
+    width: 132px;
+
+}
+input {
+    font-family: Comic Sans MS;
+    font-size: medium;
+    height: 54px;
+    width: 300px;
+}
+div#login_container div#login_header {
+    border: thin hidden #000000;
+    color: RoyalBlue;
+    display: block;
+    font-family: Comic Sans MS;
+    font-size: x-large;
+    font-weight: bold;
+    left: 35%;
+    text-align: center;
+    text-decoration: underline;
+    top: 50%;
+    width: 365px;
+}
+div#submit_button input {
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    border-radius: 35px 35px 35px 35px;
+    display: table-cell;
+    font-family: Comic Sans MS;
+    font-size: larger;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: inherit;
+    margin-left: 174px;
+    overflow: auto;
+    padding-left: 12px;
+    table-layout: auto;
+    text-align: center;
+    text-decoration: none;
+    width: 132px;
+}
+div#submit_button input:hover {
+    background-color: SteelBlue;
+    text-decoration: underline;
+}
+div#trouble {
+    font-size: small;
+    text-align: right;
+        margin-right: -4em;
+}
+.drop-shadow {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.398), 0 0 399px rgba(0, 0, 0, 0.9) inset;
+    float: left;
+    margin: 2em 10px 4em;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+}
+.drop-shadow:before, .drop-shadow:after {
+    content: "";
+    position: absolute;
+    z-index: -1239;
+}
+.perspective:before {
+    -moz-transform: skew(65deg);
+    -moz-transform-origin: -9px 114%;
+	-webkit-transform:skew(65deg);
+	-webkit-transform-origin:-9px 114%;
+	-o-transform:skew(65deg);
+	-o-transform-origin:-9px 114%;
+    bottom: 0;
+    box-shadow: -414px 0 3px rgba(0, 0, 0, 0.1);
+    height: 45%;
+    left: 451px;
+    max-width: 500px;
+    width: 300%;
+    border-radius: 25px 25px 25px 25px;
+}
+.perspective:after {
+    display: inline-table;
+}
+div.loginScreen{
+  height:300px;
+  background:Menu;
+  width:650px;
+  padding:14px;
+  border:solid;
+  border-color:Bisque;
+  text-decoration:underline;
+  font-family:Comic Sans MS;
+  top:15%;
+  left:30%;
+  position:absolute;
+  border-radius:20px;
+  
+}
+div#newUser{
+	height:100px;
+	width:100px;
+	border-left:dotted;
+	padding-left:14px;
+	display:inline-table;
+}
+
+div#existingUser{
+	height:100px;
+	width:100px;
+	display:inline-table;
+}
+
+input#submit_login{
+background-color:#02A1D4;
+color:#FFFFFF;
+  padding-bottom:9px;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:9px;
+  border-radius:20px;
+}
+
+input#open_account{
+background-color:lightgreen;
+color:#FFFFFF;
+  padding-bottom:9px;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:9px;
+  border-radius:20px;
+
+}

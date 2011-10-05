@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>TravIT</title>
+<link rel="stylesheet" type="text/css" href="css/travIT_loginpagestyle.css">
+<script src="http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js"></script>
+<script language="javascript" src="script/jquery-1.2.6.pack.js"></script> 
+<script language="javascript" src="script/jquery.layoutengine.min.js"></script> 
+<script language="javascript" type="text/javascript"> </script>
+<script>
+$(document).ready(function(){
+ var loginurl="http://project492.engr.sjsu.edu/index.html";
+   
+ var homepageurl="http://project492.engr.sjsu.edu/homepage.html";
+   
+ var registerationurl="http://project492.engr.sjsu.edu/registeration_page.html";
+   
+$("#username").focus(function(){
+$("#username").attr("value","");
+});
+$("#userpassword").focus(function(){
+$("#userpassword").attr("value","");
+});
+
+  $("#submit_login").click(function(){
+    
+    var uname=$("#username").attr("value");
+    var upassword=$("#userpassword").attr("value");
+    console.log("uname:"+uname+":upass:"+upassword);
+    $.get('travIT.php',{"username":uname,"userpass":upassword	},function(response){
+    alert("Perfect:"+response);
+    	console.log("response:",response);
+    	var resp=response.split(",");
+    	console.log("resp:",resp);
+    	var respArr=new Array();
+    	for(var i=0;i<resp.length;i+=2){
+    	if(i==0)
+    	resp[i]=jQuery.trim(resp[i]);
+    		var temp=i;
+    		temp=temp+1;
+    		respArr[resp[i]]=resp[temp];
+console.log(resp[i],":",respArr[resp[i]]);
+
+    		
+    	}
+    	console.log("hashtble:",respArr["status"]);
+    	if(respArr["status"]=="Accept"){
+    		alert("Accept");
+		var url=homepageurl+"?username="+uname;
+    	$(location).attr('href',url);
+	//alert(homepageurl);
+	//		window.location=homepageurl;
+
+    	}else{
+    	alert("Wrong username or password.Please enter them again");
+    	$("#userpassword").attr("value","");
+
+    	}
+    	
+    });
+  });//End of the click of submit_login function
+  
+  $("#trouble").click(function(){
+  });//End of new user function
+  
+  $("#open_account").click(function(){
+  	$(location).attr('href',registerationurl);
+  });
+});
+</script>
+</head>
+<body>
+		<div id="login_header" class="loginScreen drop-shadow perspective">
+			<center><img src="images/login-image.png" id="login_image"/>Log in</center>
+			<div id="trouble">
+				
+			</div>
+
+	<div id="existingUser">
+		<h4 style="color: rgb(51, 102, 153); margin-bottom: 7px; ">Existing Users:</h4>
+		Username<input type="text" id="username" name="username" value="Please enter your Username"/>
+		Password<input type="password" id="userpassword" name="password" value="Please enter your Password"/>
+		<br><br><input type="button" value="Log in!" id="submit_login"/>
+	</div>
+		<div id="newUser">
+			<h4 style="color: rgb(51, 102, 153); margin-bottom: 7px; ">New User?</h4>
+			<p>Create an account to access all of the features of our site,including:
+			<ul>
+			<li>Manage Profile</li>
+			<li>Search Store</li>
+			<li>Search Products</li>
+			<li>Manage Products</li>
+			</ul>
+		<input type="button" value="Create an Account" id="open_account"/>	
+		</div>
+	</div>
+</body>
+</html>
